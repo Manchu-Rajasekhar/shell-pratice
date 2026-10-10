@@ -1,8 +1,8 @@
 #!/bin/bash
 
-today = saturday
+today=$(saturday)
 
-if (today != sunday){
+if ($today != sunday){
     print "go to school"
 }
 else {
