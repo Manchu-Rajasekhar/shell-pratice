@@ -2,8 +2,8 @@
 
 today=$(date +%A)
 
-if ["$today"!= "sunday"]; then 
-    print "go to school"
+if [ "$today" != "Sunday" ]; then 
+    echo "go to school"
 else 
-    print "Take holiday and enjoy"
+    echo "Take holiday and enjoy"
 fi
